@@ -8,9 +8,23 @@
 </template>
 
 <script>
+import {tableData} from "./exampleData.js";
 export default {
-	
-}
+	components: {
+
+	},
+	created(){
+		alert(this.tableData[0].memberNm);
+	},
+	data() {
+		return {
+			tableData:tableData
+		};
+	},
+	methods:{
+		
+	}
+};
 </script>
 
 <style scoped>

@@ -7,10 +7,8 @@
         </h1>
         <div class="menuWrap">
             <ul class="menu">
-                <li><router-link to="/board/list">게시판</router-link></li>
-                <li><a href="javascript:;">메뉴2</a></li>
-                <li><a href="javascript:;">메뉴3</a></li>
-                <li><a href="javascript:;">메뉴4</a></li>
+                <li><router-link to="/member">게시판</router-link></li>
+                <li><router-link to="/chart">차트</router-link></li>
             </ul>
         </div>
     </header>

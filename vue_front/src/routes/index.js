@@ -1,16 +1,15 @@
 
 import {createWebHistory, createRouter} from 'vue-router';
-import HelloWorld from '@/components/HelloWorld'; //메인 컴포넌트 호출
 import List from '@/components/board/BoardList.vue'; //게시판 리스트 컴포넌트 호출
 import chart from '@/components/chart/member-chart.vue'; //일자별 회원 가입한 인원수 차트로 노출
-import loginPage from '@/components/login/login.vue'; //메인화면
+import mainPage from '@/components/main/mainPage.vue'; //메인화면
 
 
 const routes = [
 	{
 		path:'/'
-		,name:'login-page'
-		,component:loginPage
+		,name:'main-page'
+		,component:mainPage
 	}
 	,{
 		path:'/member'

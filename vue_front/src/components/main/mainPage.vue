@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h2>로그인 화면</h2>
+		<h2>메인 화면</h2>
 	</div>
 </template>
 
