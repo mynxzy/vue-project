@@ -1,9 +1,6 @@
 <template>
 	<div>
-		<h2>멤버 리스트</h2>
-	</div>
-	<div>
-		조회된 데이터 엑셀 다운로드 기능 구현
+		<h2>로그인 화면</h2>
 	</div>
 </template>
 
