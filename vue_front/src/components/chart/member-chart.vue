@@ -1,6 +1,11 @@
 <template>
 	<div>
 		<h2>일자별 회원 등록 수 기록하는 화면</h2>
+		<ul>
+			<li v-for="item in chartData" v-bind:key="item">
+				{{item.cretDt}} / {{item.cnt}}
+			</li>
+		</ul>
 	</div>
 </template>
 
