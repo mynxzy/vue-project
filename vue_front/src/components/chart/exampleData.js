@@ -28,5 +28,22 @@ const chartData = [
         cnt: 17
     },
 ]
-
-export { chartData };
+const circleChart =[
+    {
+        auth:"사업 관리자",
+        cnt:28
+    },
+    {
+        auth:"매니저",
+        cnt:23
+    },
+    {
+        auth:"사회복지사",
+        cnt:12
+    },
+    {
+        auth:"알바",
+        cnt:4
+    },
+]
+export { chartData ,circleChart};

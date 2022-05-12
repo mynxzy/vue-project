@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import {chartData} from "./exampleData.js";
+import {chartData,circleChart} from "./exampleData.js";
 import { Bar } from 'vue-chartjs'
 import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js'
 
@@ -35,11 +35,12 @@ export default {
 	data() {
 		//데이터 객체 반환 함수
 		return {
+			chartData:chartData,
+			circleChart:circleChart,
 			chartFields:{
 				fields:[],
 				data:[],
 			},
-			chartData:chartData,
 			chart:{}
 		};
 	},
